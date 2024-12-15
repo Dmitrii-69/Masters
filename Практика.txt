@@ -10,26 +10,31 @@ git add . (все файлы для выгрузки)
 
 git commit -m "Initial commit" (создать первый коммит)
 
-git push -u origin master (добавить на сайт)
+git push -u origin master (добавить на сайт ветку)
 
 
 Обновить проект
 git add .
+
 git commit -m "Любое название (действие)"
+
 git push -u origin master
 
 
 Удалить проект
-git reset --hard HEAD~1 (удаление последнего коммита из локальной)
-git push –force	(принудительное отправление изменений в удаленный репозиторий)
+git reset --hard name_commit (удаление последнего коммита)
+
+git push --force (принудительное перезаписывание изменений в удаленный репозиторий)
 
 
 Работа с ветками
 git branch (просмотр, в какой ветке находимся, а также просмотр всех имеющихся веток (*))
-git branch -a (флаг -а позволяет посмотреть удаленные ветки)
-git branch name (добавление новой ветки)
-git checkout naem (переключение между ветками (git switch name))
 
+git branch -a (флаг -а позволяет посмотреть удаленные ветки)
+
+git branch name (добавление новой ветки)
+
+git checkout naem (переключение между ветками (git switch name))
 
 
 Слияние (merge)
