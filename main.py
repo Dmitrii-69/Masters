@@ -1,7 +1,7 @@
 try:
-    from task import f
+    from task import one
 
 
-    print(f())
+    print(one())
 except:
     print("Нет доступа к файлу 'task'")
